@@ -15,20 +15,41 @@ Training Planner
 </title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<style type="text/css">
+	body {
+		background: #DF3D82;
+		color: #FFF;
+	}
+	.btn-default {
+		border-color: #fff;
+		color: #fff;
+		background: transparent;
+	}
+</style>
 </head>
 <body>
 <div class="container">
 <h1>Shazia n Nadia's Training Planner</h1>
-<hr />
+<button id="getWorkout" type="button" class="btn btn-default">Get workout!</button>
+<div id="routine">
 <div id="set1">
 <h2>Set 1</h2>
+<div id="routine1"></div>
 </div>
 <div id="set2">
 <h2>Set 2</h2>
+<div id="routine2"></div>
 </div>
 <div id="set3">
 <h2>Set 3</h2>
+<div id="routine3"></div>
 </div>
 </div>
+</div>
+<script type ="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type ="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script type="text/javascript" src="app.js"></script>
 </body>
+
 </html>
