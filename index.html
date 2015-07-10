@@ -20,18 +20,39 @@ Training Planner
 	body {
 		background: #DF3D82;
 		color: #FFF;
+		
 	}
+
+	body::after {
+  content: "";
+background: url(https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/1610935_10152919760137607_7117563123095848556_n.jpg?oh=19d13ad22c4d6bcb1dc276e79a2c622b&oe=56282E57);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 	.btn-default {
 		border-color: #fff;
 		color: #fff;
 		background: transparent;
 	}
+	.header {
+		text-align:center;
+	}
+	#routine {
+		font-size:1em;
+	}
 </style>
 </head>
 <body>
 <div class="container">
-<h1>Shazia n Nadia's Training Planner</h1>
-<button id="getWorkout" type="button" class="btn btn-default">Get workout!</button>
+<div class="header">
+	<h1>Shazia n Nadia's Training Planner</h1>
+	<button id="getWorkout" type="button" class="btn btn-default">Get workout!</button>
+</div>
 <div id="routine">
 <div id="set1">
 <h2>Set 1</h2>
